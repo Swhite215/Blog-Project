@@ -1,0 +1,31 @@
+body {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+footer {
+  float: left;
+  margin-left: 20px;
+}
+
+
+.formDesign {
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 5%
+}
+
+i.social {
+  font-size: 1em;
+
+}
+
+i.fa-twitter-square {
+  margin-left: 1%;
+}
+
+.copyRight {
+  font-size: 50%;
+  float: right;
+  margin-right: 5%;
+}
