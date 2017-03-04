@@ -65,7 +65,13 @@ i.fa-twitter-square {
   text-align: center;
 }
 
-button.changeMe:hover {
+button#giveAway {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button#giveAway:hover {
   background-color: gold !important;
   border-color: white !important;
 }
