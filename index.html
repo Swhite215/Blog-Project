@@ -29,19 +29,23 @@
         <div class="col-md-4">
 
           <form class="formDesign">
+
             <div class="form-group">
               <h3 class="text-center"> Stay In Touch/Receive Updates! </h3>
               <label for="name">Name</label>
               <input type="text" class="form-control" id="inputName" placeholder="Name">
             </div>
+
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
+
             <div class="form-group">
               <label for="textInput">Advice, Tips, or Suggestions:</label>
               <textarea class="form-control" rows="3"></textarea>
             </div>
+
             <div class="selectbox">
               <label> How did you find me?
                 <select class="form-group" name="connections">
@@ -54,10 +58,13 @@
                 </select>
               </label>
             </div>
-            <button type="submit" class="btn btn-default changeMe2">Submit</button>
+
+              <button type="submit" class="btn btn-default changeMe2">Submit</button>
           </form>
 
-              <br /><h3 class="text-center">Fan Submissions</h3>
+              <br>
+
+          <h3 class="text-center">Fan Submissions</h3>
           <div class="carouselDiv">
               <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -70,6 +77,7 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
+
                   <div class="item active">
                     <a href="" target="_blank"><img src="http://placehold.it/350x250" alt=""></a>
                     <div class="carousel-caption">
@@ -77,6 +85,7 @@
                       <p>Written by AUTHOR</p>
                     </div>
                   </div>
+
                   <div class="item">
                     <a href="" target="_blank"><img src="http://placehold.it/350x250" alt=""></a>
                     <div class="carousel-caption">
@@ -84,13 +93,15 @@
                       <p>Written by AUTHOR</p>
                     </div>
                   </div>
+
                   <div class="item">
-                  <a href="" target="_blank"><img src="http://placehold.it/350x250" alt=""></a>
+                    <a href="" target="_blank"><img src="http://placehold.it/350x250" alt=""></a>
                     <div class="carousel-caption">
                       <h4>Article xx-xx-xxxx</h4>
                       <p>Written by AUTHOR</p>
                     </div>
                   </div>
+
                   <div class="item">
                     <a href="" target="_blank"><img src="http://placehold.it/350x250" alt=""></a>
                     <div class="carousel-caption">
@@ -106,6 +117,7 @@
                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
+
                 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
@@ -114,10 +126,7 @@
             </div>
 
             <div class="modalDiv ">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-warning btn-lg changeMe" data-toggle="modal" data-target="#myModal">
-              Click here for our Weekly Giveaway!
-            </button>
+            <button type="button" name="button" data-toggle="modal" data-target="#myModal" id="giveAway">  Click here for our Weekly Giveaway! </button>
 
             <!-- Modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -134,6 +143,8 @@
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-success">Enter Drawing</button>
+                    <input type="text" name="" value="">hello
+                    <input type="text" name="" value="">Last Name
                   </div>
                 </div>
               </div>
